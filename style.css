@@ -128,8 +128,12 @@ img{
 
 }
 
+.goalheading h1{
+    padding: 10px 0px;
+}
+
 .goal{
-    margin-top: 10px;
+    margin: 10px 0px;
     font-size: 18px;
     padding-bottom: 40px;
     opacity: 0.9;

@@ -1,3 +1,5 @@
+alert("Haven't been done yet!! HEHE")
+
 let elToShow = document.querySelectorAll('.show-on-scroll')
 
 let isElInViewPort = (el) => {
