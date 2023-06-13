@@ -29,6 +29,7 @@ body {
 }
 
 .card{
+    position: absolute;
     background: #242628;
     border-radius: 10px;
     height: 500px;
@@ -75,6 +76,8 @@ img{
     border: none;
     box-shadow: unset;
     transform: translate(-130px,-175px);
+    transition: 0.5s ease-in-out;
+
 }
 
 .card .nickname {
@@ -121,6 +124,19 @@ img{
     box-shadow: 0 0 5px var(--primary-color);
 }
 
+.goalheading{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    visibility: visible;
+}
+
+.goal{
+    color: #ffffff;
+    font-size: 12px;
+}
+
 .right-to-left {
 	transform: translateX(150%);
 }
@@ -144,19 +160,22 @@ img{
 	color: white;
 	display: flex;
 	align-items: center;
-	padding-left: 80px;
+    padding-left: 200px;
+    flex-direction: row;
 }
 
-#home h1 {
-	font-size: 50px;
-	margin-bottom: 20px;
+#home .goalheading{
+    position: relative;
+    align-items: center ;
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-right: 200px;
 }
 
-#home p {
-	font-size: 20px;
-	width: 700px;
-	transition-delay: 0.2s;
-}
+/* .banner{
+    display: block;
+    padding: 60px;
+} */
 
 #about {
 	display: flex;
