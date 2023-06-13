@@ -29,7 +29,6 @@ body {
 }
 
 .card{
-    position: absolute;
     background: #242628;
     border-radius: 10px;
     height: 500px;
@@ -132,11 +131,6 @@ img{
     visibility: visible;
 }
 
-.goal{
-    color: #ffffff;
-    font-size: 12px;
-}
-
 .right-to-left {
 	transform: translateX(150%);
 }
@@ -165,11 +159,13 @@ img{
 }
 
 #home .goalheading{
-    position: relative;
-    align-items: center ;
-    margin-left: 550px;
+    /* margin-left: 550px;
     margin-top: 100px;
-    margin-right: 200px;
+    margin-right: 200px; */
+    position: relative;
+    color: white;
+    font-size: 24px;
+    visibility: visible;
 }
 
 /* .banner{
