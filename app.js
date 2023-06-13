@@ -1,4 +1,4 @@
-alert("Haven't been done yet!! HEHE")
+alert("Haven't been done yet!! HEHE \n\nXem trên máy tính thôi nhé <3")
 
 let elToShow = document.querySelectorAll('.show-on-scroll')
 
