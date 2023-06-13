@@ -226,7 +226,7 @@ img{
 }
 
 #team {
-	background: linear-gradient(180deg, #ffb936 50%, rgb(255, 243, 226) 50%);
+	background: linear-gradient(180deg, #fa9f3f 50%, rgb(255, 243, 226) 50%);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -242,7 +242,7 @@ img{
 }
 
 .person h3 {
-	color: #df720d;
+	color: #f56010;
 	font-size: 22px;
 	margin-bottom: 20px;
 }
