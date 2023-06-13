@@ -132,6 +132,7 @@ img{
     margin-top: 10px;
     font-size: 18px;
     padding-bottom: 40px;
+    opacity: 0.9;
 }
 
 .contact::before{
@@ -164,7 +165,7 @@ img{
 
 .contact > li > .ul2{
     margin-left: 120px;
-
+    opacity: 0.9;
 }
 
 
