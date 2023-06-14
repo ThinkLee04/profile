@@ -250,11 +250,15 @@ img{
     font-weight: bolder;
 }
 
+.box .header{
+    text-align: center;
+}
+
 li .degree{
     font-size: 18px;
     font-weight: bold;
     padding: 4px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .de2{
@@ -263,8 +267,6 @@ li .degree{
     font-size: 16px;
     padding: 3px;
 }
-
-
 
 #team {
 	background: linear-gradient(180deg, #fa9f3f 50%, rgb(255, 243, 226) 50%);
