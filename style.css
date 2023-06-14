@@ -246,12 +246,15 @@ img{
     display: block;
 }
 
-li .se{
+.box .edu{
+    font-weight: bolder;
+}
+
+li .degree{
     font-size: 18px;
-    font-style: italic;
     font-weight: bold;
     padding: 4px;
-    text-decoration: dotted;
+    padding-top: 10px;
 }
 
 .de2{
@@ -261,11 +264,7 @@ li .se{
     padding: 3px;
 }
 
-li .otherc{
-    font-size: 18px;
-    padding: 4px;
-    font-weight: bold;
-}
+
 
 #team {
 	background: linear-gradient(180deg, #fa9f3f 50%, rgb(255, 243, 226) 50%);
