@@ -240,7 +240,7 @@ li .se{
     font-size: 18px;
     font-style: italic;
     font-weight: bold;
-    padding: 3px;
+    padding: 4px;
     text-decoration: dotted;
 }
 
@@ -248,11 +248,12 @@ li .se{
     font-weight: 100;
     font-style: italic;
     font-size: 16px;
-    padding: 2px;
+    padding: 3px;
 }
 
 li .otherc{
-    padding: 3px;
+    font-size: 18px;
+    padding: 4px;
     font-weight: bold;
 }
 
@@ -276,4 +277,14 @@ li .otherc{
 	color: #f56010;
 	font-size: 22px;
 	margin-bottom: 20px;
+}
+
+a:link{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--primary-color);
+    text-decoration: none;
 }
