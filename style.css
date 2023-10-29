@@ -278,7 +278,7 @@ li .degree{
     font-weight: 100;
     /* font-style: italic; */
     font-size: 16px;
-    padding: 3px;
+    /* padding: 3px; */
 }
 
 .we{
@@ -323,6 +323,10 @@ ul {
     list-style: none;
   }
 
+  .person li ul{
+    padding-top: 5px;
+  }
+
 .person li ul::before {
     content: "\2022";
     color: #898076;
@@ -343,5 +347,7 @@ ul {
     display: inline-block; 
     width: 1em;
     margin-left: 0em;
+    padding-bottom: 3px;
+    padding-top: 3px;
   }
 
